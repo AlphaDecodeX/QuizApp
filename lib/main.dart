@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     // List of Maps.....
 
-    var questions = [
+    final questions = const [
       {
         'questionText': 'What is your favorite color?',
         'answers': ['Black', 'Red', 'Green', 'White']
